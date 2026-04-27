@@ -1,284 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Air Capital Cooling and Heating L.L.C â HVAC in Houston</title>
-<meta name="description" content="Air Capital Cooling and Heating L.L.C provides professional HVAC service, AC repair, heating, and installation in Houston. Call (832) 853-0875.">
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Roboto:wght@400;500;600;700&display=swap');
-
-* { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
-body {
-  font-family: 'Roboto', system-ui, sans-serif;
-  color: #0d2438;
-  background: #f0f7fc;
-  line-height: 1.6;
-  -webkit-text-size-adjust: 100%;
-}
-h1, h2, h3 { font-family: 'Montserrat', Georgia, serif; line-height: 1.2; color: #0d2438; }
-h1 { font-size: clamp(2rem, 5vw + 0.5rem, 3.6rem); font-weight: 700; }
-h1.display { font-size: clamp(2.5rem, 7vw + 1rem, 5rem); letter-spacing: -0.02em; }
-h2 { font-size: clamp(1.6rem, 3vw + 0.5rem, 2.4rem); font-weight: 700; }
-h3 { font-size: 1.2rem; font-weight: 600; }
-p { font-size: 1rem; }
-a { color: #1e88e5; text-decoration: none; }
-.container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
-.section { padding: 60px 0; }
-.section-title { text-align: center; margin-bottom: 14px; }
-.section-sub { text-align: center; color: #5d7290; margin-bottom: 36px; font-size: 1.05rem; }
-
-/* Hero */
-.hero { padding: 80px 0; }
-.hero-content { text-align: center; }
-.hero-photo .hero-content, .hero-reviews-top .hero-content { color: #0d2438; }
-.hero-photo h1, .hero-photo .tagline { color: #fff; }
-.hero-photo .hero-badge { background: #1e88e5; color: #fff; display: inline-block; padding: 6px 14px; border-radius: 999px; font-weight: 600; font-size: 0.9rem; margin-bottom: 18px; }
-.hero-split .hero-grid { display: grid; grid-template-columns: 1fr; gap: 32px; align-items: center; }
-.hero-split .hero-art { min-height: 280px; }
-@media (min-width: 800px) {
-  .hero-split .hero-grid { grid-template-columns: 1.1fr 1fr; gap: 48px; }
-  .hero-split .hero-art { min-height: 400px; }
-}
-.hero-split .hero-text { text-align: left; }
-.hero-split .hero-cta { justify-content: flex-start; }
-.hero-split .hero-badge { background: #ffffff; color: #1e88e5; display: inline-block; padding: 6px 14px; border-radius: 999px; font-weight: 600; font-size: 0.9rem; margin-bottom: 18px; }
-.hero-centered .kicker { letter-spacing: 0.3em; color: #1e88e5; font-weight: 600; font-size: 0.85rem; margin-bottom: 18px; }
-.hero-centered { padding: 100px 0; }
-.hero-small { padding: 60px 0 30px; }
-.hero-reviews-top .trust-stars { font-size: 2rem; color: #42a5f5; margin-bottom: 14px; }
-.hero-soft { padding: 70px 0; background: #ffffff; border-radius: 0 0 32px 32px; }
-.tagline { font-size: clamp(1rem, 1.5vw + 0.5rem, 1.25rem); color: #5d7290; margin: 16px 0 28px; }
-.hero-cta { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
-.btn { display: inline-block; padding: 14px 28px; border-radius: 8px; font-weight: 600; font-family: inherit; font-size: 1rem; transition: transform 0.15s, opacity 0.15s; cursor: pointer; }
-.btn-primary { background: #1e88e5; color: #fff; }
-.btn-primary:hover { transform: translateY(-2px); opacity: 0.95; }
-.btn-outline { background: transparent; color: #1e88e5; border: 2px solid #1e88e5; }
-
-/* Services */
-.services-grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
-@media (min-width: 600px) { .services-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (min-width: 900px) { .services-grid { grid-template-columns: repeat(3, 1fr); } }
-.service-card { background: #ffffff; padding: 28px 22px; border-radius: 10px; border: 1px solid rgba(0,0,0,0.06); }
-.service-icon { width: 52px; height: 52px; border-radius: 50%; background: #1e88e5; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1rem; margin-bottom: 14px; letter-spacing: 0.05em; }
-.service-card h3 { margin-bottom: 8px; }
-.service-card p { color: #5d7290; font-size: 0.95rem; }
-
-/* Why */
-.why-grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
-@media (min-width: 700px) { .why-grid { grid-template-columns: repeat(2, 1fr); } }
-.why-card { background: #ffffff; padding: 24px; border-radius: 10px; display: flex; gap: 16px; align-items: flex-start; }
-.why-check { width: 36px; height: 36px; border-radius: 50%; background: #42a5f5; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0; }
-.why-card h3 { margin-bottom: 6px; }
-.why-card p { color: #5d7290; font-size: 0.95rem; }
-
-/* Reviews */
-.reviews-grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
-@media (min-width: 700px) { .reviews-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (min-width: 1000px) { .reviews-grid { grid-template-columns: repeat(3, 1fr); } }
-.review-card { background: #ffffff; padding: 24px; border-radius: 10px; border-left: 4px solid #1e88e5; }
-.review-stars { color: #42a5f5; font-size: 1.1rem; margin-bottom: 10px; letter-spacing: 0.1em; }
-.review-text { font-style: italic; margin-bottom: 14px; font-size: 0.97rem; }
-.review-author { color: #5d7290; font-weight: 600; font-size: 0.9rem; }
-
-/* About */
-.about-text { max-width: 760px; margin: 0 auto 18px; text-align: center; color: #5d7290; font-size: 1.05rem; }
-
-/* Contact */
-.contact-grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
-@media (min-width: 800px) { .contact-grid { grid-template-columns: repeat(3, 1fr); } }
-.contact-card { background: #ffffff; padding: 28px 22px; border-radius: 10px; text-align: center; }
-.contact-card h3 { margin-bottom: 14px; color: #1e88e5; }
-.phone-big { display: block; font-size: clamp(1.4rem, 4vw, 2rem); font-weight: 700; color: #1e88e5; margin-bottom: 8px; font-family: 'Montserrat', Georgia, serif; }
-.contact-line { font-size: 1rem; margin-bottom: 6px; }
-.muted { color: #5d7290; font-size: 0.9rem; }
-
-/* Sticky mobile call button */
-.sticky-call {
-  position: fixed; bottom: 0; left: 0; right: 0;
-  background: #1e88e5; color: #fff; text-align: center;
-  padding: 14px; font-weight: 700; font-size: 1.05rem;
-  box-shadow: 0 -4px 16px rgba(0,0,0,0.18);
-  z-index: 999; text-decoration: none; display: block;
-  border-top: 2px solid #42a5f5;
-}
-.sticky-call:hover { background: #42a5f5; color: #fff; }
-
-@media (min-width: 800px) {
-  .sticky-call { display: none; }
-}
-body { padding-bottom: 64px; }
-@media (min-width: 800px) { body { padding-bottom: 0; } }
-
-/* Footer */
-.footer { padding: 28px 0; text-align: center; color: #5d7290; font-size: 0.9rem; border-top: 1px solid rgba(0,0,0,0.06); }
-</style>
+<title>Air Capital Cooling and Heating L.L.C &mdash; HVAC in Houston</title>
+<meta name="description" content="Air Capital Cooling and Heating L.L.C provides professional HVAC service in Houston. Call (832) 853-0875.">
+<style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Roboto:wght@400;500;600;700&display=swap');* { box-sizing: border-box; margin: 0; padding: 0; }html { scroll-behavior: smooth; }body { font-family: 'Roboto', system-ui, sans-serif; color: #0d2438; background: #f0f7fc; line-height: 1.6; -webkit-text-size-adjust: 100%; }h1, h2, h3 { font-family: 'Montserrat', Georgia, serif; line-height: 1.2; color: #0d2438; }h1 { font-size: clamp(2rem, 5vw + 0.5rem, 3.6rem); font-weight: 700; }h1.display { font-size: clamp(2.5rem, 7vw + 1rem, 5rem); letter-spacing: -0.02em; }h2 { font-size: clamp(1.6rem, 3vw + 0.5rem, 2.4rem); font-weight: 700; }h3 { font-size: 1.2rem; font-weight: 600; }p { font-size: 1rem; }a { color: #1e88e5; text-decoration: none; }.container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }.section { padding: 60px 0; }.section-title { text-align: center; margin-bottom: 14px; }.section-sub { text-align: center; color: #5d7290; margin-bottom: 36px; font-size: 1.05rem; }.hero { padding: 80px 0; }.hero-content { text-align: center; }.hero-photo h1, .hero-photo .tagline { color: #fff; }.hero-photo .hero-badge { background: #1e88e5; color: #fff; display: inline-block; padding: 6px 14px; border-radius: 999px; font-weight: 600; font-size: 0.9rem; margin-bottom: 18px; }.hero-split .hero-grid { display: grid; grid-template-columns: 1fr; gap: 32px; align-items: center; }.hero-split .hero-art { min-height: 280px; }@media (min-width: 800px) { .hero-split .hero-grid { grid-template-columns: 1.1fr 1fr; gap: 48px; } .hero-split .hero-art { min-height: 400px; } }.hero-split .hero-text { text-align: left; }.hero-split .hero-cta { justify-content: flex-start; }.hero-split .hero-badge { background: #ffffff; color: #1e88e5; display: inline-block; padding: 6px 14px; border-radius: 999px; font-weight: 600; font-size: 0.9rem; margin-bottom: 18px; }.hero-centered .kicker { letter-spacing: 0.3em; color: #1e88e5; font-weight: 600; font-size: 0.85rem; margin-bottom: 18px; }.hero-centered { padding: 100px 0; }.hero-small { padding: 60px 0 30px; }.hero-reviews-top .trust-stars { font-size: 2rem; color: #42a5f5; margin-bottom: 14px; }.hero-soft { padding: 70px 0; background: #ffffff; border-radius: 0 0 32px 32px; }.tagline { font-size: clamp(1rem, 1.5vw + 0.5rem, 1.25rem); color: #5d7290; margin: 16px 0 28px; }.hero-cta { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }.btn { display: inline-block; padding: 14px 28px; border-radius: 8px; font-weight: 600; font-family: inherit; font-size: 1rem; transition: transform 0.15s, opacity 0.15s; cursor: pointer; }.btn-primary { background: #1e88e5; color: #fff; }.btn-primary:hover { transform: translateY(-2px); opacity: 0.95; }.btn-outline { background: transparent; color: #1e88e5; border: 2px solid #1e88e5; }.services-grid { display: grid; grid-template-columns: 1fr; gap: 18px; }@media (min-width: 600px) { .services-grid { grid-template-columns: repeat(2, 1fr); } }@media (min-width: 900px) { .services-grid { grid-template-columns: repeat(3, 1fr); } }.service-card { background: #ffffff; padding: 28px 22px; border-radius: 10px; border: 1px solid rgba(0,0,0,0.06); }.service-icon { width: 52px; height: 52px; border-radius: 50%; background: #1e88e5; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1rem; margin-bottom: 14px; letter-spacing: 0.05em; }.service-card h3 { margin-bottom: 8px; }.service-card p { color: #5d7290; font-size: 0.95rem; }.why-grid { display: grid; grid-template-columns: 1fr; gap: 18px; }@media (min-width: 700px) { .why-grid { grid-template-columns: repeat(2, 1fr); } }.why-card { background: #ffffff; padding: 24px; border-radius: 10px; display: flex; gap: 16px; align-items: flex-start; }.why-check { width: 36px; height: 36px; border-radius: 50%; background: #42a5f5; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0; }.why-card h3 { margin-bottom: 6px; }.why-card p { color: #5d7290; font-size: 0.95rem; }.reviews-grid { display: grid; grid-template-columns: 1fr; gap: 18px; }@media (min-width: 700px) { .reviews-grid { grid-template-columns: repeat(2, 1fr); } }@media (min-width: 1000px) { .reviews-grid { grid-template-columns: repeat(3, 1fr); } }.review-card { background: #ffffff; padding: 24px; border-radius: 10px; border-left: 4px solid #1e88e5; }.review-stars { color: #42a5f5; font-size: 1.1rem; margin-bottom: 10px; letter-spacing: 0.1em; }.review-text { font-style: italic; margin-bottom: 14px; font-size: 0.97rem; }.review-author { color: #5d7290; font-weight: 600; font-size: 0.9rem; }.about-text { max-width: 760px; margin: 0 auto 18px; text-align: center; color: #5d7290; font-size: 1.05rem; }.contact-grid { display: grid; grid-template-columns: 1fr; gap: 18px; }@media (min-width: 800px) { .contact-grid { grid-template-columns: repeat(3, 1fr); } }.contact-card { background: #ffffff; padding: 28px 22px; border-radius: 10px; text-align: center; }.contact-card h3 { margin-bottom: 14px; color: #1e88e5; }.phone-big { display: block; font-size: clamp(1.4rem, 4vw, 2rem); font-weight: 700; color: #1e88e5; margin-bottom: 8px; font-family: 'Montserrat', Georgia, serif; }.contact-line { font-size: 1rem; margin-bottom: 6px; }.muted { color: #5d7290; font-size: 0.9rem; }.sticky-call { position: fixed; bottom: 0; left: 0; right: 0; background: #1e88e5; color: #fff; text-align: center; padding: 14px; font-weight: 700; font-size: 1.05rem; box-shadow: 0 -4px 16px rgba(0,0,0,0.18); z-index: 999; text-decoration: none; display: block; border-top: 2px solid #42a5f5; }.sticky-call:hover { background: #42a5f5; color: #fff; }@media (min-width: 800px) { .sticky-call { display: none; } }body { padding-bottom: 64px; }@media (min-width: 800px) { body { padding-bottom: 0; } }.footer { padding: 28px 0; text-align: center; color: #5d7290; font-size: 0.9rem; border-top: 1px solid rgba(0,0,0,0.06); }</style>
 </head>
 <body>
-
-<section class="hero hero-small">
-  <div class="container hero-content">
-    <h1>Air Capital Cooling and Heating L.L.C</h1>
-    <p class="tagline">Your local HVAC pros in Houston. Six core services, one trusted team.</p>
-    <a href="tel:8328530875" class="btn btn-primary">Call (832) 853-0875</a>
-  </div>
-</section>
-
-<section id="services" class="section services">
-  <div class="container">
-    <h2 class="section-title">Our HVAC Services</h2>
-    <p class="section-sub">Professional residential and light commercial heating &amp; cooling, done right.</p>
-    <div class="services-grid">
-      
-        <div class="service-card">
-          <div class="service-icon">AC</div>
-          <h3>AC Repair</h3>
-          <p>Fast, reliable air conditioning repair when you need it most. Our certified techs diagnose and fix any AC issue.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon">HT</div>
-          <h3>Heating</h3>
-          <p>Furnace and heat pump service, repair, and replacement to keep your home warm all winter.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon">IN</div>
-          <h3>Installation</h3>
-          <p>New AC and heating system installations sized perfectly for your home with manufacturer warranties.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon">MN</div>
-          <h3>Maintenance</h3>
-          <p>Seasonal tune-ups that extend equipment life, lower bills, and prevent breakdowns.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon">24</div>
-          <h3>Emergency Service</h3>
-          <p>Day or night, weekends and holidays â we are on call when your system fails.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon">IA</div>
-          <h3>Indoor Air Quality</h3>
-          <p>Filtration, humidity control, and duct cleaning for healthier indoor air.</p>
-        </div>
-    </div>
-  </div>
-</section>
-
-<section id="why" class="section why">
-  <div class="container">
-    <h2 class="section-title">Why Choose Air Capital Cooling and Heating L.L.C</h2>
-    <div class="why-grid">
-      
-        <div class="why-card">
-          <div class="why-check">â</div>
-          <h3>Licensed &amp; Insured</h3>
-          <p>Fully credentialed Texas HVAC technicians for total peace of mind.</p>
-        </div>
-        <div class="why-card">
-          <div class="why-check">â</div>
-          <h3>Upfront Pricing</h3>
-          <p>No surprise fees. You get a clear quote before any work begins.</p>
-        </div>
-        <div class="why-card">
-          <div class="why-check">â</div>
-          <h3>Same-Day Service</h3>
-          <p>Most repair calls are handled the same day you contact us.</p>
-        </div>
-        <div class="why-card">
-          <div class="why-check">â</div>
-          <h3>Satisfaction Guaranteed</h3>
-          <p>If you are not happy with the work, we make it right.</p>
-        </div>
-    </div>
-  </div>
-</section>
-
-<section id="reviews" class="section reviews">
-  <div class="container">
-    <h2 class="section-title">What Our Customers Say</h2>
-    <p class="section-sub">âââââ <strong>5</strong> stars Â· 9 Google reviews</p>
-    <div class="reviews-grid">
-      
-        <div class="review-card">
-          <div class="review-stars">âââââ</div>
-          <p class="review-text">"Fixed my cooling issue same day ."</p>
-          <p class="review-author">â Verified Customer</p>
-        </div>
-        <div class="review-card">
-          <div class="review-stars">âââââ</div>
-          <p class="review-text">"Fast service was able to resolve issues right after calling to make appointment"</p>
-          <p class="review-author">â Verified Customer</p>
-        </div>
-        <div class="review-card">
-          <div class="review-stars">âââââ</div>
-          <p class="review-text">"Air Capital Cooling and Heating did an outstanding job getting my AC up and running on Sunday night, 7/13/25. Jr. was the tech who came outâhe was prompt, professional, and went above and beyond to make sure everything was working perfectly. I really appreciated the fast response, especially so late on a weekend. Highly recommend!"</p>
-          <p class="review-author">â Verified Customer</p>
-        </div>
-        <div class="review-card">
-          <div class="review-stars">âââââ</div>
-          <p class="review-text">"Awesome customer service, fast and efficient. totally recommend to others!!!!"</p>
-          <p class="review-author">â Verified Customer</p>
-        </div>
-        <div class="review-card">
-          <div class="review-stars">âââââ</div>
-          <p class="review-text">"Great experience. Fixed my issue very fast and efficiently. Very professional company."</p>
-          <p class="review-author">â Verified Customer</p>
-        </div>
-        <div class="review-card">
-          <div class="review-stars">âââââ</div>
-          <p class="review-text">"Excellent experience from start to finish. Friendly staff, fast response, and quality work. Will definitely use them again!"</p>
-          <p class="review-author">â Verified Customer</p>
-        </div>
-        <div class="review-card">
-          <div class="review-stars">âââââ</div>
-          <p class="review-text">"Great experience with Air Capital Cooling and Heating! They were professional, on time, and honest about what needed to be fixed. The tech explained everything clearly, and the AC was working the same day. Highly recommend!"</p>
-          <p class="review-author">â Verified Customer</p>
-        </div>
-        <div class="review-card">
-          <div class="review-stars">âââââ</div>
-          <p class="review-text">"Referred by my coworker, they fixed my AC quickly and explained everything clearly. Great service from start to finishâhighly recommend! Clear communication and professional. Best quote out of 4 other people I called."</p>
-          <p class="review-author">â Verified Customer</p>
-        </div>
-    </div>
-  </div>
-</section>
-
-<section id="about" class="section about">
-  <div class="container">
-    <h2 class="section-title">About &amp; Service Area</h2>
-    <p class="about-text">Air Capital Cooling and Heating L.L.C proudly serves homeowners and businesses in Houston and the surrounding communities. Our mission is simple â keep your home comfortable, your air clean, and your equipment running efficiently. From routine tune-ups to full system replacements, we treat every customer like a neighbor.</p>
-    <p class="about-text">If you live in Houston or nearby, give us a call â we are just a short drive away and ready to help.</p>
-  </div>
-</section>
-
-<section id="contact" class="section contact">
-  <div class="container">
-    <h2 class="section-title">Contact Us</h2>
-    <div class="contact-grid">
-      <div class="contact-card">
-        <h3>Call Anytime</h3>
-        <a href="tel:8328530875" class="phone-big">(832) 853-0875</a>
-        <p class="muted">Tap to call â we answer 7 days a week.</p>
-      </div>
-      <div class="contact-card">
-        <h3>Visit / Mail</h3>
-        <p class="contact-line">16850 Saturn Ln # 100, Houston, TX 77058</p>
-        <p class="muted">Service area: Houston and surrounding communities.</p>
-      </div>
-      <div class="contact-card">
-        <h3>Hours</h3>
-        <p class="contact-line">Mon â Sat: 7:00 AM â 8:00 PM</p>
-        <p class="contact-line">Sun: Emergency service available</p>
-      </div>
-    </div>
-  </div>
-</section>
-<footer class="footer">
-  <div class="container">
-    <p>Air Capital Cooling and Heating L.L.C Â· 16850 Saturn Ln # 100, Houston, TX 77058 Â· <a href="tel:8328530875">(832) 853-0875</a></p>
-  </div>
-</footer>
-<a class="sticky-call" href="tel:8328530875">ð Call (832) 853-0875</a>
+<section class="hero hero-small"><div class="container hero-content"><h1>Air Capital Cooling and Heating L.L.C</h1><p class="tagline">Professional HVAC service, repair, and installation in Houston.</p><a href="tel:8328530875" class="btn btn-primary">Call (832) 853-0875</a></div></section>
+<section id="services" class="section services"><div class="container"><h2 class="section-title">Our HVAC Services</h2><p class="section-sub">Professional service, done right the first time.</p><div class="services-grid"><div class="service-card"><div class="service-icon">AC</div><h3>AC Repair</h3><p>Fast, reliable air conditioning repair when you need it most. Certified techs diagnose and fix any AC issue.</p></div><div class="service-card"><div class="service-icon">HT</div><h3>Heating</h3><p>Furnace and heat pump service, repair, and replacement to keep your home warm all winter.</p></div><div class="service-card"><div class="service-icon">IN</div><h3>Installation</h3><p>New AC and heating system installations sized perfectly for your home with manufacturer warranties.</p></div><div class="service-card"><div class="service-icon">MN</div><h3>Maintenance</h3><p>Seasonal tune-ups that extend equipment life, lower bills, and prevent breakdowns.</p></div><div class="service-card"><div class="service-icon">24</div><h3>Emergency Service</h3><p>Day or night, weekends and holidays â we are on call when your system fails.</p></div><div class="service-card"><div class="service-icon">IA</div><h3>Indoor Air Quality</h3><p>Filtration, humidity control, and duct cleaning for healthier indoor air.</p></div></div></div></section>
+<section id="why" class="section why"><div class="container"><h2 class="section-title">Why Choose Air Capital Cooling and Heating L.L.C</h2><div class="why-grid"><div class="why-card"><div class="why-check">â</div><h3>Licensed &amp; Insured</h3><p>Fully credentialed Texas HVAC technicians for total peace of mind.</p></div><div class="why-card"><div class="why-check">â</div><h3>Up-Front Pricing</h3><p>No surprise fees. You get a clear quote before any work begins.</p></div><div class="why-card"><div class="why-check">â</div><h3>Same-Day Service</h3><p>Most repair calls are handled the same day you contact us.</p></div><div class="why-card"><div class="why-check">â</div><h3>Satisfaction Guaranteed</h3><p>If you are not happy with the work, we make it right.</p></div></div></div></section>
+<section id="reviews" class="section reviews"><div class="container"><h2 class="section-title">What Our Customers Say</h2><p class="section-sub">âââââ <strong>5</strong> stars &middot; 9 Google reviews</p><div class="reviews-grid"><div class="review-card"><div class="review-stars">âââââ</div><p class="review-text">&ldquo;Fixed my cooling issue same day .&rdquo;</p><p class="review-author">&mdash; Verified Customer</p></div><div class="review-card"><div class="review-stars">âââââ</div><p class="review-text">&ldquo;Fast service was able to resolve issues right after calling to make appointment&rdquo;</p><p class="review-author">&mdash; Verified Customer</p></div><div class="review-card"><div class="review-stars">âââââ</div><p class="review-text">&ldquo;Air Capital Cooling and Heating did an outstanding job getting my AC up and running on Sunday night, 7/13/25. Jr. was the tech who came outâhe was prompt, professional, and went above and beyond to make sure everything was working perfectly. I really appreciated the fast response, especially so late on a weekend. Highly recommend!&rdquo;</p><p class="review-author">&mdash; Verified Customer</p></div><div class="review-card"><div class="review-stars">âââââ</div><p class="review-text">&ldquo;Awesome customer service, fast and efficient. totally recommend to others!!!!&rdquo;</p><p class="review-author">&mdash; Verified Customer</p></div><div class="review-card"><div class="review-stars">âââââ</div><p class="review-text">&ldquo;Great experience. Fixed my issue very fast and efficiently. Very professional company.&rdquo;</p><p class="review-author">&mdash; Verified Customer</p></div><div class="review-card"><div class="review-stars">âââââ</div><p class="review-text">&ldquo;Excellent experience from start to finish. Friendly staff, fast response, and quality work. Will definitely use them again!&rdquo;</p><p class="review-author">&mdash; Verified Customer</p></div><div class="review-card"><div class="review-stars">âââââ</div><p class="review-text">&ldquo;Great experience with Air Capital Cooling and Heating! They were professional, on time, and honest about what needed to be fixed. The tech explained everything clearly, and the AC was working the same day. Highly recommend!&rdquo;</p><p class="review-author">&mdash; Verified Customer</p></div><div class="review-card"><div class="review-stars">âââââ</div><p class="review-text">&ldquo;Referred by my coworker, they fixed my AC quickly and explained everything clearly. Great service from start to finishâhighly recommend! Clear communication and professional. Best quote out of 4 other people I called.&rdquo;</p><p class="review-author">&mdash; Verified Customer</p></div></div></div></section>
+<section id="about" class="section about"><div class="container"><h2 class="section-title">About &amp; Service Area</h2><p class="about-text">Air Capital Cooling and Heating L.L.C proudly serves homeowners and businesses in Houston and the surrounding communities. From routine work to bigger projects, we treat every customer like a neighbor.</p><p class="about-text">If you live in Houston or nearby, give us a call &mdash; we are just a short drive away and ready to help.</p></div></section>
+<section id="contact" class="section contact"><div class="container"><h2 class="section-title">Contact Us</h2><div class="contact-grid"><div class="contact-card"><h3>Call Anytime</h3><a href="tel:8328530875" class="phone-big">(832) 853-0875</a><p class="muted">Tap to call &mdash; we answer 7 days a week.</p></div><div class="contact-card"><h3>Visit / Mail</h3><p class="contact-line">16850 Saturn Ln # 100, Houston, TX 77058</p><p class="muted">Service area: Houston and surrounding communities.</p></div><div class="contact-card"><h3>Hours</h3><p class="contact-line">Mon &ndash; Sat: 7:00 AM &ndash; 8:00 PM</p><p class="contact-line">Sun: Emergency service available</p></div></div></div></section>
+<footer class="footer"><div class="container"><p>Air Capital Cooling and Heating L.L.C &middot; 16850 Saturn Ln # 100, Houston, TX 77058 &middot; <a href="tel:8328530875">(832) 853-0875</a></p></div></footer>
+<a class="sticky-call" href="tel:8328530875">â Call (832) 853-0875</a>
 </body>
 </html>
